@@ -16,8 +16,7 @@ class WeatherSummary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
+    return 
         Column(
            mainAxisAlignment: MainAxisAlignment.start,
     crossAxisAlignment: CrossAxisAlignment.start,
@@ -32,14 +31,13 @@ class WeatherSummary extends StatelessWidget {
               ),
             ),
            
-          ],
-        ),
+          
+        
         //do something
                 
               
             
-      ]),
-    );
+      ]);
   }
 
   String _formatTemperature(double t) {
