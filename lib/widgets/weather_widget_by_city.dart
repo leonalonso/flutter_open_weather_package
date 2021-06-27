@@ -62,10 +62,7 @@ class _OpenWeatherByCityState extends State<OpenWeatherByCity> {
               child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              LocationView(
-                weatherData: snapshot.data,
-                color: widget.color,
-              ),
+              
               WeatherSummary(
                 weatherData: snapshot.data,
                 color: widget.color,
