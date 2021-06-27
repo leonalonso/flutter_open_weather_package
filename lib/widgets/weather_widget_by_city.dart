@@ -70,10 +70,7 @@ class _OpenWeatherByCityState extends State<OpenWeatherByCity> {
                 weatherData: snapshot.data,
                 color: widget.color,
               ),
-              WeatherDescriptionView(
-                weatherData: snapshot.data,
-                color: widget.color,
-              ),
+             
             ],
           ));
         } else if (snapshot.hasError) {
