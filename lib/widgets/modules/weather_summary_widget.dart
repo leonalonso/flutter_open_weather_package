@@ -27,7 +27,9 @@ class WeatherSummary extends StatelessWidget {
               style: TextStyle(
                 fontSize: 50,
                 color: color,
-                fontWeight: FontWeight.w300,
+               // fontWeight: FontWeight.w300,
+                fontFamily:'SFProDisplayBold',
+                fontSize: 70
               ),
             ),
            
