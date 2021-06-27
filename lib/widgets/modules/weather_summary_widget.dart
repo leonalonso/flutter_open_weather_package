@@ -55,18 +55,7 @@ class WeatherSummary extends StatelessWidget {
             //     ],
             //   ),
             // ),
-            child: Center(
-              child: FadeInImage.memoryNetwork(
-                placeholder: kTransparentImage,
-                image:
-                    'https://openweathermap.org/img/wn/${this.weatherData.details.first.icon}@2x.png',
-                imageErrorBuilder: (context, error, stackTrace) {
-                  return Column(
-                    children: [
-                      Icon(
-                        Icons.error,
-                        color: color,
-                      ),
+            child: Center(),
                       Text(
                         'Error loading icon',
                         style: TextStyle(
