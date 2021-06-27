@@ -29,15 +29,7 @@ class WeatherSummary extends StatelessWidget {
                 fontWeight: FontWeight.w300,
               ),
             ),
-            Text(
-              'Feels like ${_formatTemperature(this.weatherData.temperature.feelsLike)}°' ??
-                  '',
-              style: TextStyle(
-                fontSize: 18,
-                color: color,
-                fontWeight: FontWeight.w300,
-              ),
-            ),
+           
           ],
         ),
         Padding(
