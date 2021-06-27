@@ -19,6 +19,8 @@ class WeatherSummary extends StatelessWidget {
     return Center(
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
         Column(
+           mainAxisAlignment: MainAxisAlignment.start,
+    crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               '${_formatTemperature(this.weatherData.temperature.currentTemperature)}°' ??
