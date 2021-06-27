@@ -71,11 +71,7 @@ class _OpenWeatherByCityState extends State<OpenWeatherByCity> {
             ],
           ));
         } else if (snapshot.hasError) {
-          return Center(
-              child: Text(
-            'Oops something went wrong!',
-            style: TextStyle(color: widget.color),
-          ));
+          return Container();
         }
         return Container();
       },
